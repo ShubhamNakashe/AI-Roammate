@@ -1,0 +1,212 @@
+.heroContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+}
+.heroimage {
+  width: 100%;
+  height: auto;
+  border-radius: 15px 15px 50px 50px;
+}
+.heroimage video {
+  width: 100%;
+  max-height: 75vh; 
+  height: auto; 
+  object-fit: cover;
+  border-radius: 15px 15px 50px 50px;
+}
+.content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content .bookingContainer {
+  position:absolute;
+  margin-top: 25%; 
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%; 
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+.bookingContainernonlogin{
+  position:absolute;
+  margin-top: 25%; 
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%; 
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+.searchnonlogin{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.bookingContainernonlogin label{
+  text-align: left;
+  font-size: 1rem;
+  color: rgb(28, 32, 88);
+  font-weight: 600;
+}
+.bookingContainernonlogin button {
+  padding: 0.7rem 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color:  #144c52;
+  border-radius: 5px;
+  color: #ffff;
+  border: 1px solid  #144c52;
+  outline: none;
+  transition: color 0.2s ease-in-out;
+  cursor: pointer;
+  margin-top: 1%;
+  max-height: 50px;
+}
+
+.bookingContainernonlogin button:hover {
+  background-color: transparent;
+  color: #144c52;
+}
+.title {
+  display: flex; 
+  position:absolute;
+  flex-wrap: wrap;
+  justify-content:left;
+  align-items:start;
+  text-align:left;
+  /* margin-top: 5%; */
+}
+.word {
+  font-size: 8rem;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  margin-top: -25%;
+  word-wrap: break-word;
+
+}
+.search {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.bookingContainer label {
+  text-align: left;
+  font-size: 1rem;
+  color: rgb(28, 32, 88);
+  font-weight: 600;
+}
+
+.bookingContainer input,
+.bookingContainer select
+ {
+  border: 1px solid #144c52 !important; 
+  margin-bottom: 1rem;
+  cursor: pointer !important;
+  overflow-x: auto !important;
+  width: 12rem !important;
+  height: 20%!important; 
+  background-color: white !important; 
+}
+
+.bookingContainer input:focus,
+.bookingContainer select:focus {
+  outline: none !important;
+  border-color: #144c52 !important;
+}
+
+.bookingContainer .search .multiselect__input {
+
+  padding: 0.5rem !important;
+  cursor: pointer !important;
+  overflow-x:hidden !important;
+  width: 1rem !important;
+  height: 0.3rem !important; 
+  background-color: white !important; 
+}
+
+.bookingContainer .search .multiselect__input:focus {
+  padding: 0.5rem !important;
+  cursor: pointer !important;
+  overflow-x:hidden !important;
+  width: 1rem !important;
+  height: 0.3rem !important; 
+  background-color: white !important; 
+  outline: none !important;
+  border-color: #144c52 !important;
+}
+.bookingContainer .multiselect {
+  width: 12rem; 
+  overflow: hidden;
+}
+
+.bookingContainer .multiselect__tags {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.bookingContainer select {
+  border: 1px solid #144c52 !important; 
+  border-radius: 5px !important;
+  padding: 0.5rem !important;
+  margin-bottom: 1rem;
+  cursor: pointer !important;
+  overflow-x: auto !important;
+  width: 12rem !important;
+  height: 20%!important; 
+  background-color: white !important; 
+}
+
+.bookingContainer select:focus {
+  outline: none !important;
+  border-color: #144c52 !important;
+  
+}
+
+
+.bookingContainer button {
+  padding: 0.7rem 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #144c52;
+  border-radius: 5px;
+  color: #ffff;
+  border: 1px solid #144c52;
+  outline: none;
+  transition: color 0.2s ease-in-out;
+  cursor: pointer;
+  margin-top: 1%;
+  max-height: 50px;
+}
+
+.bookingContainer button:hover {
+  background-color: transparent;
+  color: #144c52;
+}
+.mandatory {
+  color: red;
+}

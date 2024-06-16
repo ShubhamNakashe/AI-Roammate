@@ -1,0 +1,56 @@
+
+.app {
+  max-width: 1200px;
+}
+
+.footer {
+  width: 100%;
+  padding: 1.5rem 4rem;
+  background-color:  #dffbfb;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 2%;
+}
+
+.logoContainer {
+  flex: 1;
+  text-align: center;
+}
+
+.textContainer {
+  flex: 2;
+  text-align: center;
+}
+
+.about {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.span1 {
+  color:#009f9d;
+}
+
+.span2 {
+  color: #144c52;
+}
+
+.logo {
+  max-width: 150px;
+  height: auto;
+}
+
+@media screen and (max-width: 450px) {
+  .footerContainer {
+    padding: 0 1rem;
+  }
+
+  .footer {
+    padding: 1rem 3rem;
+    flex-direction: column;
+  }
+}
